@@ -16,13 +16,13 @@ repository = "https://github.com/veeso/tui-realm-textarea"
 [dependencies]
 cli-clipboard = { version = "^0.4", optional = true }
 lazy-regex = "^3"
-tuirealm = { version = "2", default-features = false, features = ["derive"] }
+tuirealm = { version = "3.0.1", default-features = false, features = ["derive"] }
 tui-textarea = "^0.7"
 
 [dev-dependencies]
 crossterm = "^0.28"
 pretty_assertions = "1"
-tui-realm-stdlib = "2"
+tui-realm-stdlib = "3.0.0"
 
 [features]
 default = ["crossterm"]
