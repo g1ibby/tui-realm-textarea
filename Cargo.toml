@@ -16,7 +16,7 @@ repository = "https://github.com/veeso/tui-realm-textarea"
 [dependencies]
 cli-clipboard = { version = "^0.4", optional = true }
 lazy-regex = "^3"
-tuirealm = { git = "https://github.com/g1ibby/tui-realm", branch = "feat/terminal-options-support" default-features = false, features = ["derive"] }
+tuirealm = { git = "https://github.com/g1ibby/tui-realm", branch = "feat/terminal-options-support", default-features = false, features = ["derive"] }
 tui-textarea = { git = "https://github.com/g1ibby/tui-textarea", branch = "feat/bump-ratatui" }
 
 [dev-dependencies]
